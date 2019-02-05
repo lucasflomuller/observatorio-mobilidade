@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 599.572">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fbfbff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-miterlimit: 22.926;
+        stroke-dasharray: 14 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #e4e4ff;
+        stroke-width: 10px;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_80" data-name="Group 80" transform="translate(0 -162)">
+    <rect id="bg" class="cls-1" width="1440" height="599.572" transform="translate(0 162)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-2" x1="865.9" transform="translate(866.4 410.4) rotate(180)"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-3" cx="12.2" cy="12.2" r="12.2" transform="translate(875.8 423.4) rotate(180)"/>
+  </g>
+</svg>

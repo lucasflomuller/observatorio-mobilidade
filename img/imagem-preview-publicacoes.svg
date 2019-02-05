@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 442 352">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #d9d9d9;
+      }
+
+      .cls-3 {
+        filter: url(#bg);
+      }
+    </style>
+    <filter id="bg" x="0" y="0" width="442" height="352" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#696969" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="imagem" transform="translate(-777 267.697)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 777, -267.7)">
+      <rect id="bg-2" data-name="bg" class="cls-1" width="370" height="280" rx="4" transform="translate(28 28)"/>
+    </g>
+    <g id="linhas" transform="translate(0 -27)">
+      <rect id="Rectangle_1089" data-name="Rectangle 1089" class="cls-2" width="136.933" height="6" transform="translate(998 -129.274)"/>
+      <rect id="Rectangle_1075" data-name="Rectangle 1075" class="cls-2" width="136.933" height="6" transform="translate(845 -119.274)"/>
+      <rect id="Rectangle_1088" data-name="Rectangle 1088" class="cls-2" width="136.933" height="6" transform="translate(998 -119.274)"/>
+      <rect id="Rectangle_1076" data-name="Rectangle 1076" class="cls-2" width="136.933" height="6" transform="translate(845 -109.274)"/>
+      <rect id="Rectangle_1087" data-name="Rectangle 1087" class="cls-2" width="136.933" height="6" transform="translate(998 -109.274)"/>
+      <rect id="Rectangle_1077" data-name="Rectangle 1077" class="cls-2" width="136.933" height="6" transform="translate(845 -99.274)"/>
+      <rect id="Rectangle_1086" data-name="Rectangle 1086" class="cls-2" width="136.933" height="6" transform="translate(998 -99.274)"/>
+      <rect id="Rectangle_1078" data-name="Rectangle 1078" class="cls-2" width="136.933" height="6" transform="translate(845 -89.274)"/>
+      <rect id="Rectangle_1085" data-name="Rectangle 1085" class="cls-2" width="136.933" height="6" transform="translate(998 -89.274)"/>
+      <rect id="Rectangle_1079" data-name="Rectangle 1079" class="cls-2" width="136.933" height="6" transform="translate(845 -79.274)"/>
+      <rect id="Rectangle_1084" data-name="Rectangle 1084" class="cls-2" width="136.933" height="6" transform="translate(998 -79.274)"/>
+      <rect id="Rectangle_1080" data-name="Rectangle 1080" class="cls-2" width="136.933" height="6" transform="translate(845 -69.274)"/>
+      <rect id="Rectangle_1083" data-name="Rectangle 1083" class="cls-2" width="136.933" height="6" transform="translate(998 -69.274)"/>
+      <rect id="Rectangle_1081" data-name="Rectangle 1081" class="cls-2" width="136.933" height="6" transform="translate(845 -59.274)"/>
+      <rect id="Rectangle_1082" data-name="Rectangle 1082" class="cls-2" width="136.933" height="6" transform="translate(998 -59.274)"/>
+      <rect id="Rectangle_1071" data-name="Rectangle 1071" class="cls-2" width="136.933" height="6" transform="translate(845 -129.274)"/>
+    </g>
+    <rect id="Rectangle_1074" data-name="Rectangle 1074" class="cls-2" width="290" height="54" transform="translate(845 -47.697)"/>
+    <rect id="Rectangle_1069" data-name="Rectangle 1069" class="cls-2" width="40" height="17" transform="translate(1095 -204.697)"/>
+    <rect id="Rectangle_1068" data-name="Rectangle 1068" class="cls-2" width="229" height="17" transform="translate(845 -204.697)"/>
+  </g>
+</svg>

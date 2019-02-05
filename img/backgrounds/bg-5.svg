@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440.346 599.572">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5ebf8;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 22.926;
+        stroke-width: 10px;
+        stroke-dasharray: 14 10;
+        fill-rule: evenodd;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <g id="Group_53" data-name="Group 53" transform="translate(0 -162)">
+    <rect id="bg" class="cls-1" width="1440" height="599.572" transform="translate(0 162)"/>
+    <path id="grafismo" class="cls-2" d="M1584.033-255.7,1234.59,114.1a11.1,11.1,0,0,1-7.89,3.3H839.654" transform="translate(2280 498.5) rotate(180)"/>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+.team-card {
+  width: 100%;
+  min-height: 21.5rem;
+  margin-top: 4rem;
+  padding: 2.5rem 3rem;
+  position: relative;
+
+  border-radius: .4rem;
+  outline-offset: .6rem;
+  box-shadow: 0 1.5rem 3rem rgba($color-black, .07);
+
+  background-color: $color-white;
+
+  text-align: center;
+
+  transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  @include respond(tab-land) {
+    width: 70%;
+    min-height: 0;
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @include respond(tab-port) {
+    width: 100%;
+  }
+
+  &:hover {
+    box-shadow: 0 2rem 3.3rem rgba($color-black, .10);
+    outline: 2px solid $color-primary-light;
+
+    transform: translateY(-.5rem);
+
+    @include respond(tab-land) {
+      transform: translateY(-.5rem) translateX(-50%);
+    }
+  }
+
+  &__hr {
+    margin: 1rem auto;
+    width: 20%;
+
+    border-top: 1px solid $color-grey-light-1;
+
+    &--orange {
+      border-top: 3px solid $color-orange;
+    }
+    
+    &--purple {
+      border-top: 3px solid $color-purple;
+    }
+
+    &--green {
+      border-top: 3px solid $color-green;
+    }
+
+    &--primary-light {
+      border-top: 3px solid $color-primary-light;
+    }
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: inherit;
+  }
+
+  &__list {
+    list-style: none;
+    padding-bottom: 1rem;
+  }
+
+  &__item {
+    padding: .6rem;
+
+    font-size: 1.4rem;
+    letter-spacing: 0;
+  }
+
+  &__occupation {
+
+    &--1 {
+      font-size: 1rem;
+    }
+
+    &--2 {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+  }
+
+  &__link {
+
+    &,
+    &:link,
+    &:active {
+      display: inline-block;
+      padding: .4rem;
+      
+      position: absolute;
+      left: 50%;
+      bottom: 1.5rem;
+
+      transform: translateX(-50%);
+
+      color: $color-primary-light;
+      font-size: 1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      background-image: linear-gradient(120deg,
+        transparent 0%,
+        transparent 50%,
+        $color-primary-light 50%);
+      background-size: 230%;
+      
+      transition: all .4s;
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: $color-white;
+      
+      transform: translateX(54%);
+    }
+  }
+}

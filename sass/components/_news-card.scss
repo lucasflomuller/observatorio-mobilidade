@@ -1,0 +1,43 @@
+.news-card {
+  border-radius: 3px;
+  background-color: rgba($color-white, .96);
+  padding: 1.6rem 3rem .5rem 3rem;
+  border-bottom: 4px solid rgba($color-black, .9);
+  box-shadow: 0 .5rem 2rem rgba($color-black, .15);
+  transition: .2s;
+
+  &:hover {
+    transform: translateY(-1.4rem) scale(1.05);
+    box-shadow: 0 1rem 4rem rgba($color-black, .15);
+  }
+
+  &--1 {
+    border-bottom-color: $color-orange;
+  }
+
+  &--2 {
+    border-bottom-color: $color-primary-light;
+  }
+
+  &--3 {
+    border-bottom-color: $color-purple;
+  }
+
+  &--4 {
+    border-bottom-color: $color-green;
+  }
+  
+  &__footer {
+    span {
+      &:first-of-type {
+        float: left;
+      }
+
+      // &:last-of-type {
+      //   float: right;
+      // }
+    }
+
+    @include clearfix;
+  }
+}

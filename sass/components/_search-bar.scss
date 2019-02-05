@@ -1,0 +1,89 @@
+.search-bar {
+  display: inline-block;
+  position: relative;
+
+  &__input {
+    width: 15rem;
+    padding: 0.6rem 2rem 0.8rem 1rem;
+    margin-left: 12rem;
+    
+    border-radius: 4px;
+    border: 1px solid $color-primary-light;
+
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+    
+    background-color: inherit;
+    color: inherit;
+
+    transition: all 0.5s;
+
+    @include respond(tab-port) {
+      margin-left: 0;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+
+      transition: 0.3s;
+
+      &:invalid {
+        border-color: $color-orange;
+      }
+    }
+
+    &::-webkit-input-placeholder {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.01rem;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+
+    &:placeholder-shown {
+      margin-left: 0;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    right: 16rem;
+    top: 0.8rem;
+
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    
+    transition: all 0.3s;
+
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    right: 5rem;
+
+    @include respond(tab-port) {
+     right: 0; 
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: .8rem;
+    right: .8rem;
+
+    border: none;
+    outline: none;
+    
+    background-color: transparent;
+    color: $color-primary-light;
+
+    font-weight: 100;
+
+    cursor: pointer;
+  }
+}

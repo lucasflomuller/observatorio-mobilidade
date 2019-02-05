@@ -1,0 +1,23 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/utilities";
+@import "base/typography";
+
+@import "components/search-bar";
+@import "components/button";
+@import "components/events";
+@import "components/events-list";
+@import "components/news-card";
+@import "components/team-card";
+@import "components/project-card";
+
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
+
+@import "pages/home";
+@import "pages/sobre";
+@import "pages/publicacoes";

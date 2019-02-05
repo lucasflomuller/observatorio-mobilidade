@@ -1,0 +1,48 @@
+body {
+  background-color: $color-background;
+}
+
+.section-team {
+  position: relative;
+  margin-top: -75rem;
+
+  @include respond(tab-port) {
+    margin-top: -65rem;
+  }
+}
+
+.section-projects {
+  margin-top: 10rem;
+  padding: 12rem 0;
+  position: relative;
+
+  background-color: $color-blue-sea;
+  -webkit-clip-path: polygon(42% 0, 48% 7rem, 78% 7rem, 80% 4rem, 100% 4rem, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(42% 0, 48% 7rem, 78% 7rem, 80% 4rem, 100% 4rem, 100% 100%, 0 100%, 0 0);
+}
+
+.section-articles {
+  padding: 12rem 0;
+
+  background-image: url(../img/backgrounds/bg-5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include respond(tab-port) {
+    padding: 4rem 0;
+  }
+
+  &__image {
+    width: 95%;
+    margin-top: -2rem;
+    transition: transform .2s;
+
+    @include respond(tab-land) {
+      display: none;
+    }
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

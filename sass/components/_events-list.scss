@@ -1,0 +1,115 @@
+.events-list {
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  padding: 2rem 0;
+
+  &--arrow {
+    padding: 1rem;
+    color: $color-primary;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform .2s;
+    display: inline-block;
+
+    &:first-of-type:hover {
+      transform: translateY(-.5rem);
+    }
+
+    &:last-of-type:hover {
+      transform: translateY(.5rem);
+    }
+  }
+
+  &__item {
+    display: table;
+    padding: 2rem 4rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-primary-light;
+      transition: all .5s;
+    }
+
+    &:not(:last-of-type) {
+      border-bottom: 1px solid $color-primary;
+    }
+
+    &:first-of-type {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+
+    &:last-of-type {
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+
+  &__date {
+    color: $color-primary;
+    text-align: left;
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    transition: all .2s;
+
+    &>* {
+      display: block;
+    }
+
+    &--day {
+      font-weight: 700;
+      font-size: $font-size-default;
+    }
+
+    &--year {
+      font-weight: 300;
+      font-size: 1.3rem;
+    }
+  }
+
+  &__description {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+
+    &--text {
+      opacity: 1;
+      visibility: visible;
+      transition: all .2s;
+    }
+
+    &--btn {
+      background-color: $color-white;
+      
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      top: .6rem;
+      left: 0;
+      transform: translateY(2rem);
+      transition: all .8s;
+    }
+  }
+  
+  // Hover item settings
+  &__item:hover &__date,
+  &__item:hover &__description {
+    color: $color-white;
+  }
+
+  &__item:hover &__description--text {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2rem)
+  }
+
+  &__item:hover &__description--btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
