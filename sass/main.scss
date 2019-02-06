@@ -12,6 +12,7 @@
 @import "components/news-card";
 @import "components/team-card";
 @import "components/project-card";
+@import "components/downloads";
 
 @import "layout/header";
 @import "layout/grid";
@@ -21,3 +22,5 @@
 @import "pages/home";
 @import "pages/sobre";
 @import "pages/publicacoes";
+
+@import "pages/subpages/downloads";
