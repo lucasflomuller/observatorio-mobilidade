@@ -1,6 +1,10 @@
-// Tex align utilities
+// Text align utilities
 .u-center-text {
   text-align: center !important;
+}
+
+.u-right-text {
+  text-align: right;
 }
 
 
@@ -61,7 +65,6 @@
 
 
 // PADDING UTILITIES
-
 .u-padding-medium {
   padding: 3rem 4rem !important;
 }

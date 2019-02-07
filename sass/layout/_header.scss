@@ -58,3 +58,17 @@
     padding: 10rem 0 2rem 0;
   }
 }
+
+.downloads-header {
+  width: 100%;
+  padding: 10rem 0 10rem 0;
+  position: relative;
+
+  background-image: url(../img/backgrounds/bg-7.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  @include respond(tab-port) {
+    background-position: 50% 0%;
+  }
+}
