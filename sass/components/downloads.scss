@@ -3,8 +3,8 @@
   &__header {
     display: flex;
     align-items: center;
-    
-    & > *:not(:first-child) {
+
+    &>*:not(:first-child) {
       margin-left: 0.7rem;
     }
 
@@ -21,23 +21,35 @@
   }
 
   &__list {
+    list-style: none;
+    margin-bottom: 1rem;
 
     &--nested {
-
+      padding-left: 5rem;
     }
   }
 
   &__item {
+    padding: .5rem 0;
 
     &--nested {
-
+      padding: .35rem 0;
     }
   }
 
-  &__icon {
+  &__icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-right: .75rem;
+    color: $color-primary-light;
+  }
 
-    &--nested {
-      
-    }
+  &__icon--nested::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f063";
+    margin-right: .75rem;
+    color: $color-primary-light;
   }
 }
