@@ -36,6 +36,19 @@
       color: $color-white;
     }
   }
+
+  &--primary-light-outline {
+    background-color: transparent;
+    border: 1px solid $color-primary-light;
+    border-radius: 3px;
+    color: $color-primary-light;
+    text-align: center;
+
+    &:hover {
+      background-color: $color-primary-light;
+      color: $color-white;
+    }
+  }
 }
 
 .btn-simple {
