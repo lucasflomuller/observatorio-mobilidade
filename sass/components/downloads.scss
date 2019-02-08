@@ -17,8 +17,11 @@
 
   &__content {
     width: 100%;
+    padding: 0 0 10% 0;
     max-height: 50rem;
     overflow: auto;
+    padding-bottom: 10rem;
+    -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%);
   }
 
   &__list {
