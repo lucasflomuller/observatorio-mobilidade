@@ -7,12 +7,25 @@
 
     &>*:not(:first-child) {
       margin-left: 0.7rem;
+
+      @include respond(tab-port) {
+        margin-top: 2rem;
+      }
+    }
+
+
+    @include respond(tab-port) {
+      flex-wrap: wrap;
     }
 
   }
 
   &__title {
     margin-right: auto;
+
+    @include respond(tab-port) {
+      flex: 0 0 100%;
+    }
   }
 
   &__content {
