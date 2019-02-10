@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1227.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(233,242,245,0.5);
+      }
+
+      .cls-2 {
+        fill: #e9f2f5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_81" data-name="Group 81" transform="translate(-415 -263)">
+    <rect id="BG" class="cls-1" width="1440" height="1227" transform="translate(415 263)"/>
+    <path id="BG-2" data-name="BG" class="cls-2" d="M226.7-352,366.9-211.8H527.1l59.2,59.1h575l108-111.7H1440V528.1H0V-352Z" transform="translate(415 962)"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440.146 1023">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #209d70;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 22.926;
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #29af7f;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke: #28ac7d;
+        stroke-dasharray: 14 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_82" data-name="Group 82" transform="translate(0.146 -1328)">
+    <rect id="bg" class="cls-1" width="1440" height="1023" transform="translate(0 1328)"/>
+    <g id="grafismo_02" data-name="grafismo 02" transform="translate(1310.18 2090.98) rotate(90)">
+      <path id="Path_346" data-name="Path 346" class="cls-2" d="M5,1310.334V557.616a11.117,11.117,0,0,1,3.3-7.9l95.95-95.95a11.117,11.117,0,0,0,3.3-7.9V17.7" transform="translate(0 -0.007)"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-3" cx="12.194" cy="12.194" r="12.194" transform="translate(94.753 5)"/>
+    </g>
+    <path id="grafismo_01" data-name="grafismo 01" class="cls-4" d="M1440-118.7,1185.8-122a11.117,11.117,0,0,0-7.9,3.3L825.179,244.1a11.117,11.117,0,0,1-7.9,3.3H425.961a11.117,11.117,0,0,0-7.9,3.3l-60.471,60.5a11.117,11.117,0,0,1-7.9,3.3H0" transform="translate(1440 1722.5) rotate(180)"/>
+  </g>
+</svg>
