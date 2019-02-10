@@ -28,6 +28,17 @@ body {
   padding-top: 3rem;
 }
 
+// Setting up body colors
+.body {
+  &__downloads {
+    background-color: $color-white;
+  }
+
+  &__publicacoes {
+    background-color: $color-background-violet;
+  }
+}
+
 
 // RESETING ICON CLASSES
 .icon::before {
