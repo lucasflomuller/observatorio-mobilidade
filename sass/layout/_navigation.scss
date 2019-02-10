@@ -52,6 +52,10 @@
 
   &__link {
 
+    &.active {
+      border-bottom: 1px solid $color-white;
+    }
+
     &,
     &:link,
     &:active {
@@ -62,8 +66,8 @@
 
     &:hover {
       color: $color-grey-light-2;
+      border-bottom: 1px solid $color-grey-light-2;
     }
-
   }
 
   &__form {
