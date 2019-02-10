@@ -40,4 +40,42 @@
 
     @include clearfix;
   }
+
+  &__carousel {
+    position: relative;
+    height: auto;
+
+    &>i {
+      color: $color-white;
+      font-size: 2rem;
+      position: absolute;
+      transition: .2s;
+      cursor: pointer;
+
+      &:first-of-type {
+        top: 50%;
+        left: -5rem;
+        transform: translate(0, -50%);
+
+        &:hover {
+          transform: translate(-.5rem, -50%);
+        }
+      }
+
+      &:last-of-type {
+        top: 50%;
+        right: -5rem;
+        transform: translate(0, -50%);
+
+        &:hover {
+          transform: translate(.5rem, -50%);
+        }
+      }
+
+      @include respond(tab-land) {
+        display: none;
+      }
+
+    }
+  }
 }
