@@ -44,6 +44,10 @@
 
     &--nested {
       padding-left: 5rem;
+
+      ul {
+        padding-left: 7rem;
+      }
     }
   }
 
@@ -52,6 +56,10 @@
 
     &--nested {
       padding: .35rem 0;
+
+      li {
+        padding: .30rem 0;
+      }
     }
   }
 

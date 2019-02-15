@@ -70,6 +70,14 @@
         }
       }
     }
+
+    &--image {
+      margin-top: -1rem;
+
+      @include respond(phone) {
+        display: none;
+      }
+    }
   }
 
   &__contact {
