@@ -31,15 +31,14 @@
 
   &__collapse {
     float: right;
-    margin-top: .2rem;
+    margin-top: .7rem;
   }
 
   &__list {
     list-style-type: none;
   }
 
-  &__item,
-  &__form {
+  &__item {
     display: inline-block;
     padding-top: 1rem;
 
@@ -73,5 +72,7 @@
 
   &__form {
     text-align: center;
+    margin-left: 1rem;
+    margin-top: .4rem;
   }
 }
