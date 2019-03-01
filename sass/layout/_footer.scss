@@ -72,7 +72,7 @@
     }
 
     &--image {
-      margin-top: -1rem;
+      width: 86%;
 
       @include respond(phone) {
         display: none;

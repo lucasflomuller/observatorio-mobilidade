@@ -6,7 +6,6 @@
   position: relative;
 
   border-radius: .4rem;
-  outline-offset: .6rem;
   box-shadow: 0 1.5rem 3rem rgba($color-black, .07);
 
   background-color: $color-white;
@@ -30,8 +29,6 @@
 
   &:hover {
     box-shadow: 0 2rem 3.3rem rgba($color-black, .10);
-    outline: 2px solid $color-primary-light;
-
     transform: translateY(-.5rem);
 
     @include respond(tab-land) {
