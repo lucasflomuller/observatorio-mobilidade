@@ -92,10 +92,12 @@
     &--scrolled {  
       
       & > .news-card {
-        transform: translateX(-120%);
+        transform: translateX(-360%);
+
+        transition: all 1s ease-in-out;
 
         &:hover {
-          transform: translateX(-120%) translateY(-1.4rem) scale(1.05);
+          transform: translateX(-360%) translateY(-1.4rem) scale(1.05);
         }
       }
     }
