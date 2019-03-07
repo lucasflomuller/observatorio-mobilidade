@@ -5,7 +5,7 @@
   border-bottom: 4px solid rgba($color-black, 0.9);
   border-bottom-color: $color-orange;
   box-shadow: 0 0.5rem 2rem rgba($color-black, 0.15);
-  transition: 0.2s;
+  transition: 0.4s;
 
   &:hover {
     transform: translateY(-1.4rem) scale(1.05);
@@ -93,8 +93,6 @@
       
       & > .news-card {
         transform: translateX(-360%);
-
-        transition: all 1s ease-in-out;
 
         &:hover {
           transform: translateX(-360%) translateY(-1.4rem) scale(1.05);
