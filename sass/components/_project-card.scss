@@ -8,7 +8,12 @@
   background-color: $color-blue-light-1;
 
   border-radius: 3px;
-  border-bottom: 4px solid $color-black;
+  border-bottom: 4px solid $color-orange;
+
+  .heading-tertiary,
+  .project-card__more-button {
+    color: $color-orange;
+  }
 
   transition: max-height .5s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -24,21 +29,36 @@
     max-height: 1000rem;
   }
 
-  // setting border colors
-  &--1 {
-    border-bottom-color: $color-orange;
-  }
+  &__container {
 
-  &--2 {
-    border-bottom-color: $color-primary-light;
-  }
+    .project-card {
+      &:nth-of-type(4n-2) {
+        border-bottom-color: $color-primary-light;
 
-  &--3 {
-    border-bottom-color: $color-purple;
-  }
+        .heading-tertiary,
+        .project-card__more-button {
+          color: $color-primary-light;
+        }
+      }
 
-  &--4 {
-    border-bottom-color: $color-green;
+      &:nth-of-type(4n-1) {
+        border-bottom-color: $color-purple;
+
+        .heading-tertiary,
+        .project-card__more-button {
+          color: $color-purple;
+        }
+      }
+
+      &:nth-of-type(4n) {
+        border-bottom-color: $color-green;
+
+        .heading-tertiary,
+        .project-card__more-button {
+          color: $color-green;
+        }
+      }
+    }
   }
 
   &:not(:last-child) {
