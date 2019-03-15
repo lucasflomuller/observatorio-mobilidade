@@ -1,6 +1,7 @@
 .section-categories {
   padding: 10rem 0;
-  background-color:#e5ebf9;
+  position: relative;
+  margin-top: -23rem;
 
   @include respond(tab-port) {
     padding: 2rem 0;
