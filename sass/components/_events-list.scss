@@ -3,22 +3,35 @@
   list-style: none;
   width: 100%;
   padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 40rem;
+  overflow: hidden;
 
   &--arrow {
-    padding: 1rem;
     color: $color-primary;
     font-size: 1.5rem;
     cursor: pointer;
     transition: transform .2s;
-    display: inline-block;
+    display: block;
+    text-align: center;
 
-    &:first-of-type:hover {
-      transform: translateY(-.5rem);
+    &:first-of-type {
+      padding: 1.5rem 0 0 0;
+      
+      &:hover {
+        transform: translateY(-.5rem);
+      }
     }
 
-    &:last-of-type:hover {
-      transform: translateY(.5rem);
+    &:last-of-type {
+      padding: 0 0 1.5rem 0;
+      
+      &:hover {
+        transform: translateY(.5rem);
+      }
     }
+
   }
 
   &__item {
