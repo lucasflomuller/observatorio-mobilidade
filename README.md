@@ -35,9 +35,5 @@ Para desenvolvimento foi criado um script de acompanhamento de mudanças no cód
 
 
 #### TODO:
-  - Organizar estrutura de arquivos html;
-  - Especificar classes das sections para cada página;
   - Reestruturar grid layout para melhor manutenção;
-  - Criar página de noticías;
-  - Criar subpágina de publicações;
-  - Criar classe para active page no menu.
+  - Alterar maneira de especificar cor de fundo para cada página
