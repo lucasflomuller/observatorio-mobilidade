@@ -1,5 +1,7 @@
 # Observatório de Mobilidade
 
+Website: https://observamob.sites.ufsc.br/ (responsiveness was not a requirement)
+
 Website estático criado para basear tema do wordpress em projeto pela empresa PIXEL - EJ
 
 O website foi criado utilizando Sass (SCSS) como preprocessor de CSS, a metodologia de nomenclatura utilizada foi a BEM (Block__Element--Modifier)
